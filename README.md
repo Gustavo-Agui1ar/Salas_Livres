@@ -12,7 +12,7 @@ Este aplicativo foi desenvolvido para facilitar a visualização de salas livres
 
 Abaixo está um exemplo de como o aplicativo exibe as salas livres para diferentes horários:
 
-<img src="./img_rd/img3.jpeg" width="280" height="450" /> <img src="./img_rd/img2.jpeg" width="280" height="450" />     <img src="./img_rd/img1.jpeg" width="280" height="450" />
+<img src="./img_rd/img3.jpeg" width="230" height="380" /> <img src="./img_rd/img2.jpeg" width="230" height="380" />     <img src="./img_rd/img1.jpeg" width="230" height="380" />
 
 ## Como Executar o Projeto
 
