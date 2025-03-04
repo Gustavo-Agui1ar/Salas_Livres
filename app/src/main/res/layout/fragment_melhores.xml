@@ -5,21 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2222"
     tools:context=".MelhoresFragment">
 
-
-
     <Button
-        android:id="@+id/comfirmarM"
-        android:layout_width="0dp"
-        android:layout_height="49dp"
+        android:id="@+id/confirmarM"
+        style="@style/ConfirmButtonStyle"
         android:layout_marginHorizontal="35dp"
-        android:onClick="showIndex"
-        android:background="@drawable/bottom_layout"
-        android:text="Confirmar"
-        android:textColor="#0d1117"
-        android:textSize="20dp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,16 +18,10 @@
 
     <EditText
         android:id="@+id/campoBlocoM"
-        android:layout_width="0dp"
-        android:layout_height="39dp"
+        style="@style/InputText"
         android:layout_marginHorizontal="35dp"
-        android:backgroundTint="#F2F2F2"
-        android:drawableTint="#FFFFFF"
-        android:hint="Digite o numero de uma sala"
-        android:inputType="text"
-        android:shadowColor="#FFFFFF"
-        android:textColor="#EFEFEF"
-        android:textColorHint="#817D7D"
+        android:autofillHints="sala"
+        android:hint="@string/hint_numero_sala"
         android:layout_marginTop="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,18 +31,10 @@
 
     <EditText
         android:id="@+id/campoTurnoM"
-        android:layout_width="0dp"
-        android:layout_height="39dp"
+        style="@style/InputText"
         android:layout_marginHorizontal="35dp"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#F2F2F2"
-        android:drawableTint="#FFFFFF"
-        android:ems="10"
-        android:hint="Digite o dia e o turno"
-        android:inputType="text"
-        android:shadowColor="#FFFFFF"
-        android:textColor="#EFEFEF"
-        android:textColorHint="#817D7D"
+        android:hint="@string/hint_dia_turno"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,6 +49,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/comfirmarM" />
+        app:layout_constraintTop_toBottomOf="@+id/confirmarM" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

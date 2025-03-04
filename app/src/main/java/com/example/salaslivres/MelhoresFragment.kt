@@ -26,10 +26,14 @@ class MelhoresFragment : Fragment() {
         // Inflar o layout usando View Binding
         _binding = FragmentMelhoresBinding.inflate(inflater, container, false)
         initRecycleView()
-        binding.comfirmarM.setOnClickListener{
+        binding.confirmarM.setOnClickListener{
             showBest(it)
         }
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
 
     public fun showBest(view: View) {
@@ -76,6 +80,4 @@ class MelhoresFragment : Fragment() {
 
         return true
     }
-
-    fun showIndex(view: View) {}
 }

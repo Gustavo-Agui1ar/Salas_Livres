@@ -1,5 +1,5 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#6D48B1"/> <!-- Cor de fundo -->
+    <solid android:color="@color/light_purple"/> <!-- Cor de fundo -->
     <corners android:radius="16dp"/> <!-- Raio dos cantos arredondados -->
     <padding
         android:left="8dp"

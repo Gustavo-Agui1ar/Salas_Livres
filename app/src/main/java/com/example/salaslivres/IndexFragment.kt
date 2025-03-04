@@ -25,14 +25,14 @@ class IndexFragment : Fragment() {
     ): View? {
         _binding = FragmentIndexBinding.inflate(inflater, container, false)
         initRecycleView(arrayListOf())
-        binding.comfirmar.setOnClickListener{
+        binding.confirmar.setOnClickListener{
             showIndex(it)
         }
         return binding.root
     }
 
     // Função para processar a entrada do usuário
-    private fun showIndex(view: View) {
+    fun showIndex(view: View) {
         val valueBloco = binding.campoBloco.text.toString().uppercase()
         val valueDT = binding.campoTurno.text.toString().uppercase()
 
@@ -65,6 +65,5 @@ class IndexFragment : Fragment() {
         val listC : ArrayList<ClassData> = arrayListOf(classData)
         binding.recyclerView.adapter = AdapterClassIndex(listC)
     }
-
 
 }

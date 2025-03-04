@@ -6,4 +6,29 @@
     </style>
 
     <style name="Theme.SalasLivres" parent="Base.Theme.SalasLivres" />
+
+    <style name="ConfirmButtonStyle">
+        <item name="android:layout_width">@dimen/no_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@drawable/background_rounded_primary</item>
+        <item name="android:text">@string/confirm_text</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+
+    </style>
+
+    <style name="InputText">
+        <item name="android:layout_width">@dimen/no_width</item>
+        <item name="android:layout_height">@dimen/input_text_height</item>
+        <item name="android:drawableTint">@color/white</item>
+        <item name="android:shadowColor"> @color/light_gray</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:backgroundTint">@color/gray</item>
+    </style>
 </resources>
+
+
+
+

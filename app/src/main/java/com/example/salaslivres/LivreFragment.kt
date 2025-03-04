@@ -9,12 +9,12 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.salaslivres.Adapter.AdapterBestClasses
 import com.example.salaslivres.Adapter.Salas
-import com.example.salaslivres.databinding.FragmentLivreBinding
+import com.example.salaslivres.databinding.FragmentLivresBinding
 
 class LivreFragment : Fragment() {
 
     // Variável para armazenar o binding
-    private var _binding: FragmentLivreBinding? = null
+    private var _binding: FragmentLivresBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -23,9 +23,9 @@ class LivreFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflar o layout usando View Binding
-        _binding = FragmentLivreBinding.inflate(inflater, container, false)
+        _binding = FragmentLivresBinding.inflate(inflater, container, false)
         initRecycleView(arrayListOf())
-        binding.comfirmarSL.setOnClickListener{
+        binding.confirmarSL.setOnClickListener{
             showSL(it)
         }
         return binding.root

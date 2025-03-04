@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primary_color">@color/yellow</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="colorSelected">#f7e689</color> <!-- Cor do item selecionado -->
-    <color name="colorUnselected">#FF808080</color> <!-- Cor do item não selecionado -->
-
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#EFEFEF</color>
+    <color name="gray">#817D7D</color>
+    <color name="yellow">#FFBE00</color>
+    <color name="colorSelected">#f7e689</color>
+    <color name="colorUnselected">#FF808080</color>
+    <color name="light_purple">#6D48B1</color>
 </resources>
