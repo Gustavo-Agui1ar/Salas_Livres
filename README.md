@@ -12,7 +12,7 @@ Este aplicativo foi desenvolvido para facilitar a visualização de salas livres
 
 Abaixo está um exemplo de como o aplicativo exibe as salas livres para diferentes horários:
 
-![Exemplo de visualização de salas livres](./img_rd/img1.png)
+![Exemplo de visualização de salas livres](./img_rd/img1.jpeg)
 
 ## Como Executar o Projeto
 
