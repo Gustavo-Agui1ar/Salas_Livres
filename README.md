@@ -1,6 +1,6 @@
 # App para Visualizar Salas Livres - UTFPR
 
-Este aplicativo foi desenvolvido para facilitar a visualização de salas livres na **Universidade Tecnológica Federal do Paraná (UTFPR)**. O app permite que alunos e funcionários verifiquem a disponibilidade de salas de aula em tempo real, promovendo uma melhor organização e utilização dos espaços da universidade.
+Este aplicativo foi desenvolvido para facilitar a visualização de salas livres na **Universidade Tecnológica Federal do Paraná (UTFPR)** no periodo de 2024/2. O app permite que verificar a disponibilidade de salas de aula em tempo real, promovendo uma melhor organização e utilização dos espaços da universidade.
 
 ## Funcionalidades
 
