@@ -12,7 +12,7 @@ Este aplicativo foi desenvolvido para facilitar a visualização de salas livres
 
 Abaixo está um exemplo de como o aplicativo exibe as salas livres para diferentes horários:
 
-<img src="./img_rd/img1.jpeg" width="500" height="300" />
+<img src="./img_rd/img3.jpeg" width="280" height="450" /> <img src="./img_rd/img2.jpeg" width="280" height="450" />     <img src="./img_rd/img1.jpeg" width="280" height="450" />
 
 ## Como Executar o Projeto
 
@@ -33,3 +33,22 @@ Se preferir rodar o aplicativo no **Android Studio** com um emulador, siga os pa
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/usuario/salas-livres-utfpr.git
+Abra o projeto no Android Studio:
+No Android Studio, clique em File > Open e selecione o diretório do repositório clonado.
+Configure o emulador:
+
+ - Abra o AVD Manager (Android Virtual Device).
+ - Crie um novo dispositivo virtual (emulador Android) com as configurações desejadas.
+Execute o aplicativo:
+
+ - No Android Studio, clique em Run ou use o atalho Shift + F10 para iniciar a execução no emulador configurado.
+
+O aplicativo será compilado e instalado automaticamente no emulador para você testar.
+
+### Contribuição
+
+Sinta-se à vontade para contribuir com melhorias e correções. Para isso, basta fazer um fork do repositório e enviar um pull request com as suas mudanças.
+
+### Para mais informações
+
+    E-mail: gustavogoetten@alunos.utfpr.edu.br
