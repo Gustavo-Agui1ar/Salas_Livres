@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/indexB"
+            android:icon="@drawable/time"
+            android:title="Index" />
+        <item
+            android:id="@+id/livreB"
+            android:icon="@drawable/time"
+            android:title="Livre" />
+        <item
+            android:id="@+id/melhoresB"
+            android:icon="@drawable/time"
+            android:title="Melhores Salas" />
+</menu>

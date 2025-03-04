@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/livre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2222"
+    android:layoutDirection="locale"
+    tools:context=".LivreFragment">
+
+    <Button
+        android:id="@+id/comfirmarSL"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Confirmar"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:background="@drawable/bottom_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diaTurno" />
+
+    <EditText
+        android:id="@+id/diaTurno"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="#F2F2F2"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Digite o dia e o turno"
+        android:inputType="text"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#EFEFEF"
+        android:textColorHint="#817D7D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSL"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        android:layout_marginHorizontal="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comfirmarSL"
+        app:layout_constraintVertical_bias="0.486" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
